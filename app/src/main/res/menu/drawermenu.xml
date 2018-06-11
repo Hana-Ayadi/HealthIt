@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/Home" android:title="Home" android:icon="@drawable/home"  android:onClick="Home"></item>
+<item android:id="@+id/event" android:title="Mesure" android:icon="@drawable/ic_heartbeat"  android:onClick="mesure"></item>
+<item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_icons8_settings" android:onClick="settings"></item>
+    <item android:id="@+id/search" android:title="Statistics" android:icon="@drawable/ic_bar_chart"  android:onClick="statistics"></item>
+</menu>
